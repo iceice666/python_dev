@@ -4,14 +4,14 @@ from tkinter import BOTTOM
 from tkinter import Button, Frame, Tk
 
 from win32api import ShellExecute
+import json
 
 
 class tools:
     def __init__(self):
         # self.DIRPATH=os.getcwd()+"\\"
         self.UIs = {}
-        self.projectNames = {}
-        self.projectPaths = {}
+        self.projects = {}
         self.loadSettings()
         self.loadUI()
 
@@ -21,41 +21,29 @@ class tools:
     def loadSettings(self):
         ###          CONFIG          ###
         ###CHANGE YOUR LANG FILE HERE###
-        lang = "zh_TW.data"
+        lang = "zh_TW.json"
 
         with open("data\\" + lang, "r", encoding="utf-8") as f:
-            rlist = f.readlines()
-            rlist_name = []
-            rlist_ui = []
+            rjson = json.loads(f.read())
+            self.UIs = rjson["ui"]
+            self.projects = rjson["project"]
 
-            for i in rlist:
-                if i.replace("\n", "").startswith("#") is True:
-                    pass
-                elif i == "\n":
-                    pass
-                elif i.startswith("project") is True:
-                    rlist_name.append(i.replace("\n", ""))
-                elif i.startswith("ui") is True:
-                    rlist_ui.append(i.replace("\n", ""))
-
-            for i in rlist_name:
-                self.projectNames.setdefault(i.split("=")[0], i.split("=")[1])
-            for i in rlist_ui:
-                self.UIs.setdefault(i.split("=")[0], i.split("=")[1])
-
-    def makeBtn(self, root, path):
-        return Button(root, command=lambda: self.runCmd(path),
-                      text=self.projectNames["project.py_dev"], width=25).pack()
+    def makeBtn(self, root, id):
+        obj = self.projects[id]
+        text = obj["name"]
+        cmd = lambda: self.runCmd(obj["path"])
+        return Button(root, command=cmd,
+                      text=text, width=25).pack()
 
     def loadUI(self):
         root = Tk()
-        root.title(self.UIs["ui.title"])
+        root.title(self.UIs["title"])
 
         frm1 = Frame(root).pack()
         Button(frm1, text="Made by KSHSlime", width=25, command=lambda: sys.exit(1), relief="flat").pack(side=BOTTOM)
 
         frm_tools = Frame(root).pack()
-        self.makeBtn(frm_tools, "")
+        self.makeBtn(frm_tools, "mod_dev")
 
         '''
         ###ADD BUTTON##

@@ -15,6 +15,9 @@
                   <Item>
                     <option name="path" value="tools[dev]/lang/zh_TW.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="tools[dev]/data/zh_TW.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
