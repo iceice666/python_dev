@@ -1,0 +1,1 @@
+pyinstaller tools.py -i icon.ico -F -c
