@@ -21,9 +21,9 @@ class tools:
     def loadSettings(self):
         ###          CONFIG          ###
         ###CHANGE YOUR LANG FILE HERE###
-        lang = "zh_TW.lang"
+        lang = "zh_TW.data"
 
-        with open("lang\\" + lang, "r", encoding="utf-8") as f:
+        with open("data\\" + lang, "r", encoding="utf-8") as f:
             rlist = f.readlines()
             rlist_name = []
             rlist_ui = []

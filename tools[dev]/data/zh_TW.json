@@ -1,0 +1,16 @@
+{
+  "lang":"zh_TW",
+  "ui":{
+  "title":"小工具"
+  },
+  "project":{
+    "mod_dev": {
+      "path": "mod_dev\\mod_dev.py",
+      "name": "Minecraft模組開發"
+    },
+    "py_dev": {
+      "path": "py_dev\\py_dev.py",
+      "name": "Python程式開發"
+    }
+  }
+}

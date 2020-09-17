@@ -31,21 +31,21 @@ class tools():
                 pass
             elif i == "\n":
                 pass
-            elif i.startswith("general.lang") is True:
-                lang=(i.split("=")[1]).replace("\n","")
+            elif i.startswith("general.data") is True:
+                lang = (i.split("=")[1]).replace("\n", "")
             elif i.startswith("project") is True:
-                rlist_path.append(i.replace("\n",""))
+                rlist_path.append(i.replace("\n", ""))
 
         for i in rlist_path:
             self.projectPaths.setdefault(i.split("=")[0],i.split("=")[1])
 
-        with open(self.DIRPATH+"lang\\"+lang+".lang","r",encoding="utf-8") as f:
-            rlist=f.readlines()
-            rlist_name=[]
-            rlist_ui=[]
+        with open(self.DIRPATH + "data\\" + lang + ".data", "r", encoding="utf-8") as f:
+            rlist = f.readlines()
+            rlist_name = []
+            rlist_ui = []
 
             for i in rlist:
-                if i.replace("\n","").startswith("#") is True:
+                if i.replace("\n", "").startswith("#") is True:
                     pass
                 elif i == "\n":
                     pass

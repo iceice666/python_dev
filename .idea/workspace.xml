@@ -1,50 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61079935-ceb6-4b52-9877-395c988aa316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python[dev].iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packager[dev]/packager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg_test - (tools[dev])/@output@/zh_TW.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg_test - (tools[dev])/icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg_test - (tools[dev])/lang/zh_TW.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg_test - (tools[dev])/projects/mod_dev/main.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg_test - (tools[dev])/projects/mod_dev/mod_dev.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg_test - (tools[dev])/settings.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg_test - (tools[dev])/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/lang/zh_TW.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/projects/mod_dev/mod_dev.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/projects/py_dev/py_dev.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/Tree-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/Tree-01.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/tools.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/warn-tools.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/build/tools/xref-tools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/dist/tools.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/lang/zh_TW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/lang/zh_TW.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/pkg.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/projects/mod_dev/mod_dev.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/projects/py_dev/py_dev.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools[dev]/tools.spec" afterDir="false" />
+    <list default="true" id="61079935-ceb6-4b52-9877-395c988aa316" name="Default Changelist" comment="__init__&#10;Python 3.8.5&#10;PyCharm 2020.2.1&#10;Git 2.24.2.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_test - (tools[dev])/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/pkg_test - (tools[dev])/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/lang/zh_TW.json" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/data/zh_TW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/lang/zh_TW.lang" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/data/zh_TW.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,12 +83,25 @@
       <workItem from="1600184506812" duration="169000" />
       <workItem from="1600184686885" duration="655000" />
       <workItem from="1600336527000" duration="865000" />
-      <workItem from="1600337430261" duration="2116000" />
+      <workItem from="1600337430261" duration="3423000" />
+      <workItem from="1600349371858" duration="378000" />
     </task>
+    <task id="LOCAL-00001" summary="__init__&#10;Python 3.8.5&#10;PyCharm 2020.2.1&#10;Git 2.24.2.1">
+      <created>1600341493081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600341493082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="__init__&#10;Python 3.8.5&#10;PyCharm 2020.2.1&#10;Git 2.24.2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="__init__&#10;Python 3.8.5&#10;PyCharm 2020.2.1&#10;Git 2.24.2.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1134" y="574" key="#Custom_Plugin_Repositories" timestamp="1600181830043">
@@ -141,6 +116,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="730" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600184708704" />
+    <state x="843" y="195" key="CommitChangelistDialog2" timestamp="1600341434621">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="843" y="195" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1600341434621" />
     <state x="1092" y="394" key="FileChooserDialogImpl" timestamp="1600340961033">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -173,6 +152,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="656" y="256" width="1419" height="888" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600341056915" />
+    <state x="772" y="366" key="Vcs.Push.Dialog.v2" timestamp="1600341562968">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="772" y="366" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600341562968" />
+    <state x="1049" y="567" key="git4idea.ui.GitResetDialog" timestamp="1600341422536">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1049" y="567" key="git4idea.ui.GitResetDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600341422536" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_dev_$tools.coverage" NAME="tools Coverage Results" MODIFIED="1600184335234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools[dev]" />
