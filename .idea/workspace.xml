@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61079935-ceb6-4b52-9877-395c988aa316" name="Default Changelist" comment="__update__ &lt;ver 0.1.0&gt; [2020.09.18]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)">
+    <list default="true" id="61079935-ceb6-4b52-9877-395c988aa316" name="Default Changelist" comment="__update__ &lt;ver 0.1.1&gt; [2020.09.18]&#10;&#10;__changelog__&#10;make it more Object-oriented code!&#10;Batch add button(finished)&#10;&#10;__code__&#10;add function makeBtn (finished)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_test - (tools[dev])/@output@/zh_TW.lang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_test - (tools[dev])/icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_test - (tools[dev])/lang/zh_TW.lang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_test - (tools[dev])/projects/mod_dev/main.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_test - (tools[dev])/projects/mod_dev/mod_dev.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_test - (tools[dev])/settings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg_test - (tools[dev])/tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/lang/zh_TW.lang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/projects/mod_dev/mod_dev.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/projects/py_dev/py_dev.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/xref-tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/xref-tools.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/dist/tools.exe" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/dist/tools.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools[dev]/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Scripts/pyinstaller.exe" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -86,6 +106,8 @@
       <workItem from="1600336527000" duration="865000" />
       <workItem from="1600337430261" duration="3423000" />
       <workItem from="1600349371858" duration="7822000" />
+      <workItem from="1600444132777" duration="1229000" />
+      <workItem from="1600446424035" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="__init__&#10;Python 3.8.5&#10;PyCharm 2020.2.1&#10;Git 2.24.2.1">
       <created>1600341493081</created>
@@ -115,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600426330580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="__update__ &lt;ver 0.1.1&gt; [2020.09.18]&#10;&#10;__changelog__&#10;make it more Object-oriented code!&#10;Batch add button(finished)&#10;&#10;__code__&#10;add function makeBtn (finished)">
+      <created>1600444261598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600444261598</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +155,8 @@
     <MESSAGE value="__update__ &lt;ver 0.1.0&gt; [2020.09.17]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (unfinished)" />
     <MESSAGE value="__update__ &lt;ver 0.1.0&gt; [2020.09.17]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)" />
     <MESSAGE value="__update__ &lt;ver 0.1.0&gt; [2020.09.18]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)" />
-    <option name="LAST_COMMIT_MESSAGE" value="__update__ &lt;ver 0.1.0&gt; [2020.09.18]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)" />
+    <MESSAGE value="__update__ &lt;ver 0.1.1&gt; [2020.09.18]&#10;&#10;__changelog__&#10;make it more Object-oriented code!&#10;Batch add button(finished)&#10;&#10;__code__&#10;add function makeBtn (finished)" />
+    <option name="LAST_COMMIT_MESSAGE" value="__update__ &lt;ver 0.1.1&gt; [2020.09.18]&#10;&#10;__changelog__&#10;make it more Object-oriented code!&#10;Batch add button(finished)&#10;&#10;__code__&#10;add function makeBtn (finished)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -143,18 +173,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="730" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600184708704" />
-    <state x="1092" y="334" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600359151130">
+    <state x="1092" y="334" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600444379179">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1092" y="334" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600359151130" />
-    <state x="1149" y="487" width="454" height="432" key="#com.intellij.tools.ToolEditorDialog" timestamp="1600359154984">
+    <state x="1092" y="334" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600444379179" />
+    <state x="1149" y="487" width="454" height="432" key="#com.intellij.tools.ToolEditorDialog" timestamp="1600444385251">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1149" y="487" width="454" height="432" key="#com.intellij.tools.ToolEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600359154984" />
-    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2" timestamp="1600426326974">
+    <state x="1149" y="487" width="454" height="432" key="#com.intellij.tools.ToolEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600444385251" />
+    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2" timestamp="1600444259122">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1600426326974" />
+    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1600444259122" />
     <state x="1092" y="394" key="FileChooserDialogImpl" timestamp="1600358828817">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -167,22 +197,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1046" y="333" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600341257065" />
-    <state width="2501" height="258" key="GridCell.Tab.0.bottom" timestamp="1600444114592">
+    <state width="2501" height="374" key="GridCell.Tab.0.bottom" timestamp="1600447134052">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2501" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600444114592" />
-    <state width="2501" height="258" key="GridCell.Tab.0.center" timestamp="1600444114592">
+    <state width="2501" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600447134052" />
+    <state width="2501" height="374" key="GridCell.Tab.0.center" timestamp="1600447134052">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2501" height="258" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600444114592" />
-    <state width="2501" height="258" key="GridCell.Tab.0.left" timestamp="1600444114592">
+    <state width="2501" height="374" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600447134052" />
+    <state width="2501" height="374" key="GridCell.Tab.0.left" timestamp="1600447134051">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2501" height="258" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600444114592" />
-    <state width="2501" height="258" key="GridCell.Tab.0.right" timestamp="1600444114592">
+    <state width="2501" height="374" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600447134051" />
+    <state width="2501" height="374" key="GridCell.Tab.0.right" timestamp="1600447134052">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2501" height="258" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600444114592" />
+    <state width="2501" height="374" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600447134052" />
     <state width="2501" height="406" key="GridCell.Tab.1.bottom" timestamp="1600444114587">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -199,14 +229,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2501" height="406" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600444114587" />
-    <state x="656" y="256" width="1419" height="888" key="SettingsEditor" timestamp="1600359155811">
+    <state x="656" y="256" width="1419" height="888" key="SettingsEditor" timestamp="1600444635590">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="656" y="256" width="1419" height="888" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600359155811" />
-    <state x="772" y="366" key="Vcs.Push.Dialog.v2" timestamp="1600426340439">
+    <state x="656" y="256" width="1419" height="888" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600444635590" />
+    <state x="772" y="366" key="Vcs.Push.Dialog.v2" timestamp="1600444263379">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="772" y="366" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600426340439" />
+    <state x="772" y="366" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600444263379" />
     <state x="1051" y="590" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600356353884">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -222,13 +252,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tools[dev]/tools.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -239,6 +262,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_dev_$tools.coverage" NAME="tools Coverage Results" MODIFIED="1600444073762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools[dev]" />
+    <SUITE FILE_PATH="coverage/python_dev_$tools.coverage" NAME="tools Coverage Results" MODIFIED="1600445067759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools[dev]" />
   </component>
 </project>

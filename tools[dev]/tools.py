@@ -2,28 +2,42 @@ import sys
 from threading import Thread
 from tkinter import BOTTOM
 from tkinter import Button, Frame, Tk
-
-from win32api import ShellExecute
 import json
+
+try:
+    from win32api import ShellExecute
+except ModuleNotFoundError:
+    import pywintypes
+    from win32api import ShellExecute
 
 
 class tools:
     def __init__(self):
-        # self.DIRPATH=os.getcwd()+"\\"
+
+        self.appDIR = self.app_path() + "\\"
         self.UIs = {}
         self.projects = {}
         self.loadSettings()
         self.loadUI()
 
+    def app_path(self):
+        import sys
+        import os.path
+        """Returns the base application path."""
+        if hasattr(sys, 'frozen'):
+            # Handles PyInstaller
+            return os.path.dirname(sys.executable)  #使用pyinstaller打包后的exe目录
+        return os.path.dirname(__file__)
+
     def runCmd(self, i):
-        Thread(target=lambda: ShellExecute(0, "open", "projects\\{}".format(i), "", "", 0)).start()
+        Thread(target=lambda: ShellExecute(0, "open", self.appDIR + "projects\\{}".format(i), "", "", 0)).start()
 
     def loadSettings(self):
         ###          CONFIG          ###
         ###CHANGE YOUR LANG FILE HERE###
         lang = "zh_TW.json"
 
-        with open("data\\" + lang, "r", encoding="utf-8") as f:
+        with open(self.appDIR + "data\\" + lang, "r", encoding="utf-8") as f:
             rjson = json.loads(f.read())
             self.UIs = rjson["ui"]
             self.projects = rjson["project"]
@@ -48,24 +62,14 @@ class tools:
             b = self.makeBtn(frm_tools, i)
             btnList.append(b)
 
-        '''
-        ###ADD BUTTON##
-        ###format:
-        ###but_<project name> = Button(frm_tools, text=self.projectNames["project.<project name>"],
-        ###                  command=lambda: self.runCmd("<project path>"), width=25).pack()
-        but_mod_dev = Button(frm_tools, text=self.projectNames["project.mod_dev"],
-                             command=lambda: self.runCmd("mod_dev\\mod_dev.py"), width=25).pack()
-        but_py_dev = Button(frm_tools, command=lambda: self.runCmd("py_dev\\py_dev.py"),
-                            text=self.projectNames["project.py_dev"], width=25).pack()
-        ##############################################################################################
-        '''
+
         root.geometry()
 
         w = 250
         h = 250
 
         root.geometry("%dx%d+%d+%d" % (w, h, (root.winfo_screenwidth() - w) / 2, (root.winfo_screenheight() - h) / 2))
-        root.iconbitmap("icon.ico")
+        root.iconbitmap(self.appDIR + "icon.ico")
 
         root.mainloop()
 
