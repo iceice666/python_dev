@@ -37,13 +37,16 @@ class tools:
 
     def loadUI(self):
         root = Tk()
+        btnList = []
         root.title(self.UIs["title"])
 
         frm1 = Frame(root).pack()
         Button(frm1, text="Made by KSHSlime", width=25, command=lambda: sys.exit(1), relief="flat").pack(side=BOTTOM)
 
         frm_tools = Frame(root).pack()
-        self.makeBtn(frm_tools, "mod_dev")
+        for i in self.projects.keys():
+            b = self.makeBtn(frm_tools, i)
+            btnList.append(b)
 
         '''
         ###ADD BUTTON##
