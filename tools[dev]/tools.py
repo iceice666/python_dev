@@ -1,6 +1,6 @@
 import sys
 from threading import Thread
-from tkinter import Button, Frame, Tk, Toplevel, Scrollbar, Text, RIGHT, DISABLED, END, Y
+from tkinter import Button, Frame, Tk, Toplevel, Scrollbar, Text, RIGHT, DISABLED, END, Y, BOTTOM
 import json
 
 try:
