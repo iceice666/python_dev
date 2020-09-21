@@ -75,10 +75,10 @@ class tools:
         t.pack()
         t.insert(END, """
             Tools.exe [ver {ver}]
-            
+
             Programmer - iceice666
             UI Designer KSHSlime
-            
+
             """.format(ver=self.ver))
         t.configure(state=DISABLED)
 
