@@ -1,4 +1,3 @@
-import sys
 from threading import Thread
 from tkinter import Button, Frame, Tk, Toplevel, Scrollbar, Text, RIGHT, DISABLED, END, Y, BOTTOM
 import json
@@ -10,23 +9,6 @@ except ModuleNotFoundError:
     from win32api import ShellExecute
 
 
-def showError(e):
-    root = Tk()
-    w = 800
-    h = 150
-    root.title("Error!")
-    root.geometry("%dx%d+%d+%d" % (w, h, (root.winfo_screenwidth() - w) / 2, (root.winfo_screenheight() - h) / 2))
-    root.resizable(True, False)
-
-    scrollbar = Scrollbar(root)
-    scrollbar.pack(side=RIGHT, fill=Y)
-
-    t = Text(root, padx=5, pady=5, width=500, font="Consolas")
-    t.insert(END, e)
-    t.configure(state=DISABLED)
-    t.pack()
-
-    root.mainloop()
 
 
 class tools:
@@ -62,6 +44,25 @@ class tools:
             self.projects = rjson["project"]
 
     ###       UI       ###
+
+    def showError(self, e):
+        root = Tk()
+        w = 800
+        h = 150
+        root.title("Error!")
+        root.geometry("%dx%d+%d+%d" % (w, h, (root.winfo_screenwidth() - w) / 2, (root.winfo_screenheight() - h) / 2))
+        root.iconbitmap(self.appDIR + "error.ico")
+        root.resizable(True, False)
+
+        scrollbar = Scrollbar(root)
+        scrollbar.pack(side=RIGHT, fill=Y)
+
+        t = Text(root, padx=5, pady=5, width=500, font="Consolas")
+        t.insert(END, e)
+        t.configure(state=DISABLED)
+        t.pack()
+
+        root.mainloop()
 
     def aboutAuthor(self):
         info = Toplevel()
@@ -116,4 +117,4 @@ if __name__ == "__main__":
     try:
         tools()
     except BaseException as e:
-        showError(e)
+        tools().showError(e)

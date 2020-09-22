@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61079935-ceb6-4b52-9877-395c988aa316" name="Default Changelist" comment="__update__ &lt;ver 0.1.1.1&gt; [2020.09.19]&#10;&#10;__changelog__&#10;make it can change the file path&#10;&#10;__code__">
+    <list default="true" id="61079935-ceb6-4b52-9877-395c988aa316" name="Default Changelist" comment="__update__ &lt;ver 1.0.0.1&gt; [2020.09.20]&#10;&#10;&#10;First formal edition version release!~~~&#10;&#10;__changelog__&#10;add error reporter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/build/tools/xref-tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/build/tools/xref-tools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/dist/tools.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools[dev]/cancel.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tools[dev]/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools[dev]/tools.spec" beforeDir="false" afterPath="$PROJECT_DIR$/tools[dev]/tools.spec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +13,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/tools[dev]/tools.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JupyterTrust" id="fa1f3d11-6ae5-4d97-b489-ce5edee5050d" />
   <component name="ProjectId" id="1hYCVOS9nLLMWDTr6mjQR5BfTIl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="更新" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -99,7 +92,9 @@
       <workItem from="1600446424035" duration="1739000" />
       <workItem from="1600472601423" duration="427000" />
       <workItem from="1600473920695" duration="4400000" />
-      <workItem from="1600529947495" duration="1357000" />
+      <workItem from="1600529947495" duration="1663000" />
+      <workItem from="1600681312869" duration="667000" />
+      <workItem from="1600769686974" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="__init__&#10;Python 3.8.5&#10;PyCharm 2020.2.1&#10;Git 2.24.2.1">
       <created>1600341493081</created>
@@ -143,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600447741882</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="__update__ &lt;ver 1.0.0.0&gt; [2020.09.20]&#10;&#10;&#10;First formal edition version release!~~~&#10;&#10;__changelog__&#10;add error reporter">
+      <created>1600531560140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600531560140</updated>
+    </task>
+    <task id="LOCAL-00008" summary="__update__ &lt;ver 1.0.0.0&gt; [2020.09.20]&#10;&#10;&#10;First formal edition version release!~~~&#10;&#10;__changelog__&#10;add error reporter">
+      <created>1600531573866</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600531573866</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +165,8 @@
     <MESSAGE value="__update__ &lt;ver 0.1.0&gt; [2020.09.18]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)" />
     <MESSAGE value="__update__ &lt;ver 0.1.1&gt; [2020.09.18]&#10;&#10;__changelog__&#10;make it more Object-oriented code!&#10;Batch add button(finished)&#10;&#10;__code__&#10;add function makeBtn (finished)" />
     <MESSAGE value="__update__ &lt;ver 0.1.1.1&gt; [2020.09.19]&#10;&#10;__changelog__&#10;make it can change the file path&#10;&#10;__code__" />
-    <option name="LAST_COMMIT_MESSAGE" value="__update__ &lt;ver 0.1.1.1&gt; [2020.09.19]&#10;&#10;__changelog__&#10;make it can change the file path&#10;&#10;__code__" />
+    <MESSAGE value="__update__ &lt;ver 1.0.0.0&gt; [2020.09.20]&#10;&#10;&#10;First formal edition version release!~~~&#10;&#10;__changelog__&#10;add error reporter" />
+    <option name="LAST_COMMIT_MESSAGE" value="__update__ &lt;ver 1.0.0.0&gt; [2020.09.20]&#10;&#10;&#10;First formal edition version release!~~~&#10;&#10;__changelog__&#10;add error reporter" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -181,10 +191,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1149" y="487" width="454" height="432" key="#com.intellij.tools.ToolEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600475114557" />
-    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2" timestamp="1600447738931">
+    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2" timestamp="1600531617816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1600447738931" />
+    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1600531617816" />
     <state x="1092" y="394" key="FileChooserDialogImpl" timestamp="1600358828817">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -233,14 +243,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="702" y="334" width="1419" height="888" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600530885407" />
-    <state x="772" y="366" key="Vcs.Push.Dialog.v2" timestamp="1600447744978">
+    <state x="772" y="366" key="Vcs.Push.Dialog.v2" timestamp="1600531621275">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="772" y="366" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600447744978" />
-    <state x="1051" y="590" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600356353884">
+    <state x="772" y="366" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600531621275" />
+    <state x="1051" y="590" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600681983962">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1051" y="590" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600356353884" />
+    <state x="1051" y="590" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600681983962" />
     <state x="727" y="362" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600354933211">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
