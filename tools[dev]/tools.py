@@ -2,8 +2,6 @@ import json
 from threading import Thread
 from tkinter import Button, Frame, Tk, Toplevel, Scrollbar, Text, RIGHT, DISABLED, END, Y, BOTTOM
 
-from PIL import Image, ImageTk
-
 try:
     from win32api import ShellExecute
 except ModuleNotFoundError:
@@ -56,16 +54,7 @@ class tools:
     def runCmd(self, i):
         Thread(target=lambda: ShellExecute(0, "open", self.appDIR + "projects\\{}".format(i), "", "", 0)).start()
 
-    def getPhoto(self, p):
-        if os.path.exists(self.appDIR + "projects\\{}\\icon.png".format(p.split("\\")[0])):
-            img_path = self.appDIR + "projects\\{}\\icon.png".format(p.split("\\")[0])
 
-            img_open = Image.open(img_path)
-            img = ImageTk.PhotoImage(img_open)
-
-            return img
-        else:
-            return None
 
     def loadSettings(self):
         settings = "settings.json"
@@ -131,12 +120,10 @@ class tools:
 
 # main
 if __name__ == "__main__":
-    '''
+
     try:
         tools()
     except SystemExit:
         pass
     except BaseException as e:
         showError(e)
-        '''
-    tools()

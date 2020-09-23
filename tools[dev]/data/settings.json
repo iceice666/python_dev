@@ -6,11 +6,13 @@
   "project":{
     "mod_dev": {
       "path": "mod_dev\\mod_dev.py",
-      "name": "Minecraft模組開發"
+      "name": "Minecraft模組開發",
+      "icon": "mod_dev\\icon.png"
     },
     "py_dev": {
       "path": "py_dev\\py_dev.py",
-      "name": "Python程式開發"
+      "name": "Python程式開發",
+      "icon": "py_dev\\icon.png"
     }
   }
 }
