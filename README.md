@@ -27,6 +27,8 @@ STEP 4：[在這裡](https://i.imgur.com/fXAkc6q.png) 輸入下列文字
 
 - `[project_id]` ：每個project專屬的id
 
+-
+
 +  `[run_path]` ：要執行的檔案的路徑（包括副檔名）:
 + `[project]\\[run_file]` 
 + `[project]`為此工具的跟目錄
@@ -41,6 +43,9 @@ STEP 4：[在這裡](https://i.imgur.com/fXAkc6q.png) 輸入下列文字
             └─ [other_file]
         
         
+
+
+-
 
 - `[project_name]` ：在軟體中要顯示的名稱
 
