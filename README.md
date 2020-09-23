@@ -1,15 +1,17 @@
-# python_dev
+# Python_dev
+
+## tools[dev]
 一個小軟體
 
 Made by KSHSlime & iceice666
 
-## 如何使用
-### 註：[ ] 內的名稱需自行代換為你的程式資料夾的名稱
+### 如何使用
+#### 註：[ ] 內的名稱需自行代換為你的程式資料夾的名稱
 
 STEP 1：在projects資料夾新增一個資料夾 名子為 `[project_id]`
 [Imgur](https://i.imgur.com/9zfDyL7.png)
 
-STEP 2：將 程式or軟體or捷徑or可執行檔 放入`[project_id]`資料夾中
+STEP 2：將 程式or軟體or捷徑or可執行檔...等等 放入`[project_id]`資料夾中
 [Imgur](https://i.imgur.com/cAt9S0z.png)
 
 STEP 3：進入 data 資料夾 打開 settings.json
