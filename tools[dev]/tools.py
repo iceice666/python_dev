@@ -1,6 +1,8 @@
+import json
 from threading import Thread
 from tkinter import Button, Frame, Tk, Toplevel, Scrollbar, Text, RIGHT, DISABLED, END, Y, BOTTOM
-import json
+
+from PIL import Image, ImageTk
 
 try:
     from win32api import ShellExecute
@@ -8,65 +10,76 @@ except ModuleNotFoundError:
     import pywintypes
     from win32api import ShellExecute
 
+import sys
+import os.path
 
+global DIR
+
+if hasattr(sys, 'frozen'):
+    DIR = os.path.dirname(sys.executable)
+else:
+    DIR = os.path.dirname(__file__)
+
+DIR += "\\"
+
+
+def showError(e):
+    root = Tk()
+    w = 800
+    h = 150
+    root.title("Error!")
+    root.geometry("%dx%d+%d+%d" % (w, h, (root.winfo_screenwidth() - w) / 2, (root.winfo_screenheight() - h) / 2))
+    root.iconbitmap(DIR + "error.ico")
+    root.resizable(False, False)
+
+    scrollbar = Scrollbar(root)
+    scrollbar.pack(side=RIGHT, fill=Y)
+
+    t = Text(root, padx=5, pady=5, width=500, font="Consolas")
+    t.insert(END, e)
+    t.configure(state=DISABLED)
+    t.pack()
+
+    root.mainloop()
 
 
 class tools:
     def __init__(self):
-        self.ver = "1.0.0.0"
+        self.ver = "1.0.1.0"
 
-        self.appDIR = self.app_path() + "\\"
+        self.appDIR = DIR
         self.UIs = {}
         self.projects = {}
         self.loadSettings()
         self.loadUI()
 
-    def app_path(self):
-        import sys
-        import os.path
-        """Returns the base application path."""
-        if hasattr(sys, 'frozen'):
-            # Handles PyInstaller
-            return os.path.dirname(sys.executable)
-        return os.path.dirname(__file__)
-
     def runCmd(self, i):
         Thread(target=lambda: ShellExecute(0, "open", self.appDIR + "projects\\{}".format(i), "", "", 0)).start()
 
-    def loadSettings(self):
-        ###          CONFIG          ###
-        ###CHANGE YOUR LANG FILE HERE###
-        lang = "zh_TW.json5"
+    def getPhoto(self, p):
+        if os.path.exists(self.appDIR + "projects\\{}\\icon.png".format(p.split("\\")[0])):
+            img_path = self.appDIR + "projects\\{}\\icon.png".format(p.split("\\")[0])
 
-        with open(self.appDIR + "data\\" + lang, "r", encoding="utf-8") as f:
+            img_open = Image.open(img_path)
+            img = ImageTk.PhotoImage(img_open)
+
+            return img
+        else:
+            return None
+
+    def loadSettings(self):
+        settings = "settings.json"
+
+        with open(self.appDIR + "data\\" + settings, "r", encoding="utf-8") as f:
             rjson = json.loads(f.read())
             self.UIs = rjson["ui"]
             self.projects = rjson["project"]
 
-    ###       UI       ###
-
-    def showError(self, e):
-        root = Tk()
-        w = 800
-        h = 150
-        root.title("Error!")
-        root.geometry("%dx%d+%d+%d" % (w, h, (root.winfo_screenwidth() - w) / 2, (root.winfo_screenheight() - h) / 2))
-        root.iconbitmap(self.appDIR + "error.ico")
-        root.resizable(True, False)
-
-        scrollbar = Scrollbar(root)
-        scrollbar.pack(side=RIGHT, fill=Y)
-
-        t = Text(root, padx=5, pady=5, width=500, font="Consolas")
-        t.insert(END, e)
-        t.configure(state=DISABLED)
-        t.pack()
-
-        root.mainloop()
+    #       UI       #
 
     def aboutAuthor(self):
         info = Toplevel()
-        w = 400
+        w = 430
         h = 150
         info.resizable(False, False)
         info.title("Credits")
@@ -86,23 +99,27 @@ class tools:
     def makeBtn(self, root, project_id):
         obj = self.projects[project_id]
         text = obj["name"]
-        cmd = lambda: self.runCmd(obj["path"])
-        return Button(root, command=cmd,
-                      text=text, width=25).pack()
+
+        def cmd(): return self.runCmd(obj["path"])
+
+        return Button(root, command=cmd, text=text, width=280).pack()
 
     def loadUI(self):
         btnList = []
         root = Tk()
         root.title(self.UIs["title"])
-        root.resizable(False, True)
-        w = 250
-        h = 250
+        #root.resizable(False, False)
+        w = 280
+        h = 280
         root.geometry("%dx%d+%d+%d" % (w, h, (root.winfo_screenwidth() - w) / 2, (root.winfo_screenheight() - h) / 2))
         root.iconbitmap(self.appDIR + "icon.ico")
 
+        scrollbar = Scrollbar(root)
+        scrollbar.pack(side=RIGHT, fill=Y)
+
         frm1 = Frame(root).pack()
-        Button(frm1, text="About", width=25, command=lambda: self.aboutAuthor(), relief="flat").pack(
-            side=BOTTOM)
+        Button(frm1, text="EXIT", width=25, command=lambda: sys.exit(0), relief="flat").pack(side=BOTTOM)
+        Button(frm1, text="About", width=25, command=lambda: self.aboutAuthor(), relief="flat").pack(side=BOTTOM)
 
         frm_tools = Frame(root).pack()
         for i in self.projects.keys():
@@ -114,7 +131,12 @@ class tools:
 
 # main
 if __name__ == "__main__":
+    '''
     try:
         tools()
+    except SystemExit:
+        pass
     except BaseException as e:
-        tools().showError(e)
+        showError(e)
+        '''
+    tools()
