@@ -1,12 +1,16 @@
+import os.path
 import sys
 from threading import Thread
 from tkinter import Toplevel, END, DISABLED, Button, Tk, Scrollbar, RIGHT, Frame, BOTTOM, Text, Y
 
 from win32api import ShellExecute
-import tools_tk.globalvar as gl
 
 global DIR
-DIR = gl.get_value("DIR")
+if hasattr(sys, 'frozen'):
+    DIR = os.path.dirname(sys.executable)
+else:
+    DIR = os.path.dirname(__file__)
+DIR += "\\"
 
 
 class tools:

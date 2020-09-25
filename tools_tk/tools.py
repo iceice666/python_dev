@@ -2,8 +2,7 @@ import json
 import os.path
 import sys
 
-import tools_tk.ui as _UI
-import tools_tk.globalvar as gl
+from tools_tk import ui as _UI
 
 try:
     from win32api import ShellExecute
@@ -17,8 +16,6 @@ if hasattr(sys, 'frozen'):
 else:
     DIR = os.path.dirname(__file__)
 DIR += "\\"
-gl.init()
-gl.set_value("DIR", DIR)
 
 
 class tools:
