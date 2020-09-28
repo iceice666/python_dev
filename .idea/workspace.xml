@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61079935-ceb6-4b52-9877-395c988aa316" name="Default Changelist" comment="__update__ &lt;ver 1.1.0.0&gt; [2020.09.25]&#10;&#10;&#10;&#10;&#10;__changelog__&#10;fix can't find dir error" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tools_tk/tools.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JupyterTrust" id="fa1f3d11-6ae5-4d97-b489-ce5edee5050d" />
+  <component name="ProjectId" id="1hYCVOS9nLLMWDTr6mjQR5BfTIl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="更新" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Qt/5.15.1/mingw81_32/bin/designer.exe" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IceIc\Desktop\python[dev]\tools[dev]\lang" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="tools_tk" type="PythonConfigurationType" factoryName="Python">
+      <module name="tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\IceIc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools_tk/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools_tk/tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\IceIc\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61079935-ceb6-4b52-9877-395c988aa316" name="Default Changelist" comment="" />
+      <created>1600178662363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600178662363</updated>
+      <workItem from="1600178663500" duration="820000" />
+      <workItem from="1600179497032" duration="94000" />
+      <workItem from="1600179597735" duration="16000" />
+      <workItem from="1600179629590" duration="4000" />
+      <workItem from="1600181734655" duration="14000" />
+      <workItem from="1600181754917" duration="80000" />
+      <workItem from="1600181841274" duration="53000" />
+      <workItem from="1600181902602" duration="2529000" />
+      <workItem from="1600184506812" duration="169000" />
+      <workItem from="1600184686885" duration="655000" />
+      <workItem from="1600336527000" duration="865000" />
+      <workItem from="1600337430261" duration="3423000" />
+      <workItem from="1600349371858" duration="7822000" />
+      <workItem from="1600444132777" duration="1229000" />
+      <workItem from="1600446424035" duration="1739000" />
+      <workItem from="1600472601423" duration="427000" />
+      <workItem from="1600473920695" duration="4400000" />
+      <workItem from="1600529947495" duration="1663000" />
+      <workItem from="1600681312869" duration="667000" />
+      <workItem from="1600769686974" duration="33000" />
+      <workItem from="1600769726466" duration="112000" />
+      <workItem from="1600774820413" duration="1896000" />
+      <workItem from="1600785191978" duration="2411000" />
+      <workItem from="1600788318564" duration="5053000" />
+      <workItem from="1600855153249" duration="742000" />
+      <workItem from="1600855987492" duration="9071000" />
+      <workItem from="1600949297752" duration="6076000" />
+      <workItem from="1601029652200" duration="176000" />
+      <workItem from="1601032665748" duration="1106000" />
+      <workItem from="1601034166382" duration="52000" />
+      <workItem from="1601034221123" duration="3101000" />
+      <workItem from="1601043688540" duration="1630000" />
+      <workItem from="1601047637100" duration="1107000" />
+      <workItem from="1601049588819" duration="2629000" />
+      <workItem from="1601060622893" duration="595000" />
+      <workItem from="1601110345504" duration="9000" />
+      <workItem from="1601114689374" duration="1000" />
+      <workItem from="1601129598293" duration="11000" />
+      <workItem from="1601130592869" duration="29000" />
+      <workItem from="1601134967642" duration="181000" />
+      <workItem from="1601149808599" duration="595000" />
+      <workItem from="1601187028336" duration="599000" />
+      <workItem from="1601195290213" duration="52000" />
+      <workItem from="1601222321812" duration="2000" />
+      <workItem from="1601285095898" duration="10000" />
+      <workItem from="1601285111166" duration="33000" />
+      <workItem from="1601294515680" duration="3000" />
+      <workItem from="1601295238721" duration="20000" />
+    </task>
+    <task id="LOCAL-00001" summary="__init__&#10;Python 3.8.5&#10;PyCharm 2020.2.1&#10;Git 2.24.2.1">
+      <created>1600341493081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600341493082</updated>
+    </task>
+    <task id="LOCAL-00002" summary="__update__ &lt;ver 0.1.0&gt; [2020.09.17]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (unfinished)">
+      <created>1600350240483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600350240483</updated>
+    </task>
+    <task id="LOCAL-00003" summary="__update__ &lt;ver 0.1.0&gt; [2020.09.17]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)">
+      <created>1600359244216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600359244216</updated>
+    </task>
+    <task id="LOCAL-00004" summary="__update__ &lt;ver 0.1.0&gt; [2020.09.18]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)">
+      <created>1600426330580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600426330580</updated>
+    </task>
+    <task id="LOCAL-00005" summary="__update__ &lt;ver 0.1.1&gt; [2020.09.18]&#10;&#10;__changelog__&#10;make it more Object-oriented code!&#10;Batch add button(finished)&#10;&#10;__code__&#10;add function makeBtn (finished)">
+      <created>1600444261598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600444261598</updated>
+    </task>
+    <task id="LOCAL-00006" summary="__update__ &lt;ver 0.1.1.1&gt; [2020.09.19]&#10;&#10;__changelog__&#10;make it can change the file path&#10;&#10;__code__">
+      <created>1600447741882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600447741882</updated>
+    </task>
+    <task id="LOCAL-00007" summary="__update__ &lt;ver 1.0.0.0&gt; [2020.09.20]&#10;&#10;&#10;First formal edition version release!~~~&#10;&#10;__changelog__&#10;add error reporter">
+      <created>1600531560140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600531560140</updated>
+    </task>
+    <task id="LOCAL-00008" summary="__update__ &lt;ver 1.0.0.0&gt; [2020.09.20]&#10;&#10;&#10;First formal edition version release!~~~&#10;&#10;__changelog__&#10;add error reporter">
+      <created>1600531573866</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600531573866</updated>
+    </task>
+    <task id="LOCAL-00009" summary="__update__ &lt;ver 1.0.1.0&gt; [2020.09.22]&#10;&#10;&#10;&#10;&#10;__changelog__&#10;add error reporter">
+      <created>1600769788623</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600769788623</updated>
+    </task>
+    <task id="LOCAL-00010" summary="__update__ &lt;ver 1.0.1.1&gt; [2020.09.23]&#10;&#10;&#10;&#10;&#10;__changelog__&#10;try to add images to button, but it is fail.&#10;(maybe i will use PyQt or wxPython)">
+      <created>1600858379428</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600858379428</updated>
+    </task>
+    <task id="LOCAL-00011" summary="__update__ &lt;ver 1.0.1.1&gt; [2020.09.23]&#10;&#10;&#10;Releases!&#10;&#10;__changelog__&#10;try to add images to button, but it failed.&#10;(maybe i will use PyQt or wxPython)">
+      <created>1600874864702</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600874864702</updated>
+    </task>
+    <task id="LOCAL-00012" summary="__update__ &lt;ver 1.1.0.0&gt; [2020.09.25]&#10;&#10;&#10;interface-segregation !!&#10;&#10;__changelog__&#10;add ui.py for GUI">
+      <created>1601033137283</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601033137283</updated>
+    </task>
+    <task id="LOCAL-00013" summary="__update__ &lt;ver 1.1.0.0&gt; [2020.09.25]&#10;&#10;&#10;&#10;&#10;__changelog__&#10;fix can't find dir error">
+      <created>1601038288552</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601038288552</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="__init__&#10;Python 3.8.5&#10;PyCharm 2020.2.1&#10;Git 2.24.2.1" />
+    <MESSAGE value="__update__ &lt;ver 0.1.0&gt; [2020.09.17]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (unfinished)" />
+    <MESSAGE value="__update__ &lt;ver 0.1.0&gt; [2020.09.17]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)" />
+    <MESSAGE value="__update__ &lt;ver 0.1.0&gt; [2020.09.18]&#10;&#10;__changelog__&#10;try to make more Object-oriented code&#10;&#10;__code__&#10;add function makeBtn (finished)" />
+    <MESSAGE value="__update__ &lt;ver 0.1.1&gt; [2020.09.18]&#10;&#10;__changelog__&#10;make it more Object-oriented code!&#10;Batch add button(finished)&#10;&#10;__code__&#10;add function makeBtn (finished)" />
+    <MESSAGE value="__update__ &lt;ver 0.1.1.1&gt; [2020.09.19]&#10;&#10;__changelog__&#10;make it can change the file path&#10;&#10;__code__" />
+    <MESSAGE value="__update__ &lt;ver 1.0.0.0&gt; [2020.09.20]&#10;&#10;&#10;First formal edition version release!~~~&#10;&#10;__changelog__&#10;add error reporter" />
+    <MESSAGE value="__update__ &lt;ver 1.0.1.0&gt; [2020.09.22]&#10;&#10;&#10;&#10;&#10;__changelog__&#10;add error reporter" />
+    <MESSAGE value="__ADD_FILE__&#10;&#10;add error.ico" />
+    <MESSAGE value="__update__ &lt;ver 1.0.1.1&gt; [2020.09.23]&#10;&#10;&#10;&#10;&#10;__changelog__&#10;try to add images to button, but it is fail.&#10;(maybe i will use PyQt or wxPython)" />
+    <MESSAGE value="__update__ &lt;ver 1.0.1.1&gt; [2020.09.23]&#10;&#10;&#10;Releases!&#10;&#10;__changelog__&#10;try to add images to button, but it failed.&#10;(maybe i will use PyQt or wxPython)" />
+    <MESSAGE value="__update__ &lt;ver 1.1.0.0&gt; [2020.09.25]&#10;&#10;&#10;interface-segregation !!&#10;&#10;__changelog__&#10;add ui.py for GUI" />
+    <MESSAGE value="__update__ &lt;ver 1.1.0.0&gt; [2020.09.25]&#10;&#10;&#10;&#10;&#10;__changelog__&#10;fix can't find dir error" />
+    <option name="LAST_COMMIT_MESSAGE" value="__update__ &lt;ver 1.1.0.0&gt; [2020.09.25]&#10;&#10;&#10;&#10;&#10;__changelog__&#10;fix can't find dir error" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1134" y="574" key="#Custom_Plugin_Repositories" timestamp="1600181830043">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1134" y="574" key="#Custom_Plugin_Repositories/0.0.2560.1400@0.0.2560.1400" timestamp="1600181830043" />
+    <state x="979" y="476" key="#Notifications" timestamp="1600341087727">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="979" y="476" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1600341087727" />
+    <state x="566" y="345" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601034311547">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="566" y="345" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601034311547" />
+    <state x="1092" y="334" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1601049928416">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1092" y="334" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601049928416" />
+    <state x="1149" y="487" width="454" height="432" key="#com.intellij.tools.ToolEditorDialog" timestamp="1601050077343">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1149" y="487" width="454" height="432" key="#com.intellij.tools.ToolEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601050077343" />
+    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2" timestamp="1601038286495">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1162" y="147" width="1333" height="1050" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1601038286495" />
+    <state x="1092" y="394" width="997" height="612" key="FileChooserDialogImpl" timestamp="1601049896769">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1092" y="394" width="997" height="612" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1601049896769" />
+    <state x="1098" y="594" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1600775336367">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1098" y="594" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600775336367" />
+    <state x="1137" y="570" key="Github.ShareDialog" timestamp="1600341142530">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1137" y="570" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600341142530" />
+    <state x="1046" y="333" key="Github.UntrackedFilesDialog" timestamp="1600341257065">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1046" y="333" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600341257065" />
+    <state width="2501" height="218" key="GridCell.Tab.0.bottom" timestamp="1601052231120">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2501" height="218" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601052231120" />
+    <state width="2501" height="218" key="GridCell.Tab.0.center" timestamp="1601052231119">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2501" height="218" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601052231119" />
+    <state width="2501" height="218" key="GridCell.Tab.0.left" timestamp="1601052231119">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2501" height="218" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601052231119" />
+    <state width="2501" height="218" key="GridCell.Tab.0.right" timestamp="1601052231120">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2501" height="218" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601052231120" />
+    <state width="2501" height="406" key="GridCell.Tab.1.bottom" timestamp="1600869702045">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2501" height="406" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600869702045" />
+    <state width="2501" height="406" key="GridCell.Tab.1.center" timestamp="1600869702045">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2501" height="406" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600869702045" />
+    <state width="2501" height="406" key="GridCell.Tab.1.left" timestamp="1600869702045">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2501" height="406" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600869702045" />
+    <state width="2501" height="406" key="GridCell.Tab.1.right" timestamp="1600869702045">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2501" height="406" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600869702045" />
+    <state x="1014" y="137" width="1419" height="888" key="SettingsEditor" timestamp="1601050078069">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1014" y="137" width="1419" height="888" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1601050078069" />
+    <state x="772" y="366" key="Vcs.Push.Dialog.v2" timestamp="1601038294267">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="772" y="366" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1601038294267" />
+    <state x="1051" y="590" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600681983962">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1051" y="590" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600681983962" />
+    <state x="727" y="362" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600354933211">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="727" y="362" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400@0.0.2560.1400" timestamp="1600354933211" />
+    <state x="1049" y="567" key="git4idea.ui.GitResetDialog" timestamp="1600341422536">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1049" y="567" key="git4idea.ui.GitResetDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600341422536" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1600790996052">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1600790996052" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tools$tools_tk.coverage" NAME="tools_tk Coverage Results" MODIFIED="1601043254768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools_tk/" />
+    <SUITE FILE_PATH="coverage/python_dev_$tools.coverage" NAME="tools Coverage Results" MODIFIED="1600874673918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools[dev]" />
+    <SUITE FILE_PATH="coverage/tools$tools.coverage" NAME="tools_tk Coverage Results" MODIFIED="1600960073792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools_tk" />
+  </component>
+</project>
